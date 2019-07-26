@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Krystian Antoniak</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+        <script src="https://kit.fontawesome.com/c3112e60d2.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,700i|Open+Sans:400,400i,700|Roboto:400,700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <h2><a href="#">Portfolio</a></h2>
+            </div>
+            <ul class="menu"> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="videobg">
+            <video autoplay muted loop id="myVideo">
+            <source src="videos/bg.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <p class="pac">“Reality is wrong. Dreams are for real.”</p>
+                <div class="social">
+                <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href=""><i class="fab fa-github-square fa-3x"></i></a>
+                <a href=""><i class="fab fa-reddit-square fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="section-header" id="about">
+                <h1>About me</h1>
+            </div>
+            <div class="shader">
+            <div class="aboutme">
+                    <img src="images/me.jpg" alt="me"> 
+                    <div> 
+                        <ul class="aboutmelist">
+                            <li>Full Name:<br> <span style=" font-weight: normal;">Krystian Antoniak</span></li>
+                            <li>Age:<br> <span style=" font-weight: normal;">24 Years</span></li>
+                            <li>Profile:<br> <span style="text-decoration: line-through;  font-weight: normal;">Front-end Web Developer</span></li>
+                            <li>Telephone:<br> <span style=" font-weight: normal;">+48 669 666 296</span></li>
+                            <li>E-mail:<br> <span style=" font-weight: normal;">krystian.antoniak94@gmail.com</span></li>
+                        </ul>      
+                    </div>
+                    <div class="aboutmetext">
+                        <p>Third year student of system engineering at Wrocław University of Science and Technology at the faculty of Computer Science and Managment. I'm currently expanding my knowledge and skill in the field of web developing.
+                        I'm interested in new technologies and machine learning. I love watching and playing basketball.
+                        </p>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="section-header" id="skills">
+                <h1>Skills</h1>
+            </div>
+            <div class="skills" >
+                <div class="skills-box">
+                    <i class="fab fa-adobe fa-7x" style="color: rgb(103, 162, 250);text-shadow: 1px 1px 1px rgb(37, 37, 37);"></i> 
+                    <h2>Photoshop</h2>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-html5 fa-7x" style="margin-top:50px; color: rgb(255, 168, 96);text-shadow: 1px 1px 1px rgb(37, 37, 37);"></i>
+                    <h2>HTML</h2>
+                </div>
+                <div class="skills-box">
+                        <i class="fab fa-github fa-7x" style="color: rgb(107, 107, 107); text-shadow: 1px 1px 1px rgb(37, 37, 37);"></i>
+                        <h2>Github</h2>
+                    </div>
+                
+                <div class="skills-box">
+                        <i class="fab fa-css3-alt fa-7x" style=" margin-top:50px;color: rgb(111, 248, 106);text-shadow: 1px 1px 1px  rgb(37, 37, 37);"></i>
+                        <h2>CSS</h2>
+                </div>
+                <div class="skills-box">
+                        <i class="fab fa-js fa-7x" style="color: rgb(229, 255, 111);text-shadow: 1px 1px 1px rgb(37, 37, 37);"></i>
+                        <h2>JavaScript</h2>
+                    </div>
+
+            </div>
+        </section>
+        <section>
+            <div id="portfolio" class="section-header">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="portfolio">
+                    <div class="img-box1">
+                        <div class="portfolio-image"><img src="images/portfolio5.jpg"></div>
+                        <div class="portfolio-image"><img src="images/portfolio3.jpg"></div>
+                    </div>
+                    <div class="img-box2">
+                        <div class="portfolio-image"><img src="images/portfolio4.jpg"></div>
+                        <div class="portfolio-image"><img src="images/portfolio2.jpg"></div>
+                    </div>
+            </div>
+        </section>
+        <section>
+            <div id="contact" class="section-header">
+                <h1>Contact</h1>
+            </div>
+            <div class="contact-box">
+            <div class="contact">
+                <form action="action.js">
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail adress">
+                    <input type="text" id="topic" name="topic" placeholder="Topic">
+                    <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+                    <input  id="button" type="submit" value="Send Request">
+                </form>
+            </div>
+        </div>
+        </section>
+        <section>
+            <div class="foot">
+                <p>Copyrights © 2019 Krystian Antoniak</p>
+            </div>
+        </section>
+    </body>
+</html>
