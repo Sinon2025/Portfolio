@@ -1,2 +1,1 @@
-Portfolio
-Project was made during CodersCamp course.
+Portfolio was made during CodersCamp course.
