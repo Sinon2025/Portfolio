@@ -101,7 +101,7 @@ nav{
     transition: 0.5s ease-in-out;
 }
 
-.logo a:hover{
+.logo a:hover, .logo a:active{
     color: white;
     animation: 1.3s textshake infinite alternate;
 }
@@ -135,7 +135,7 @@ nav{
     transition: 0.2s ease-in-out;
 }
 
-.menu a:hover{
+.menu a:hover, .menu a:active {
     color: #bfbfbf;
     -webkit-transform: scale(1.1); 
 }
@@ -293,7 +293,7 @@ nav{
     transition: 1s ease-in-out;
 }
 
-.portfolio img:hover{
+.portfolio img:hover {
     filter: grayscale(0);
 }
 
@@ -311,7 +311,7 @@ nav{
     color:white;
 }
 
-.social a:hover{
+.social a:hover, .social a:active {
     color:rgb(221, 220, 220);
 }
 
@@ -371,7 +371,7 @@ input[type=submit] {
     text-transform: uppercase;
 }   
 
-#button:hover{
+#button:hover, #button:active {
     background-color: #949494;
 } 
 
@@ -435,5 +435,12 @@ input[type=submit] {
         font-size: 30px;
         letter-spacing: 0.5px;
     }
+    .aboutmetext p{
+        text-align: center;
+    }
+    .portfolio img:active {
+        filter: grayscale(0);
+    }
+
 
 }
