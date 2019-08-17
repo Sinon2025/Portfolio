@@ -272,6 +272,12 @@ nav{
     color: rgb(77, 77, 77);
 }
 
+.portfolio-section{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+
 .portfolio{
     margin-top: 5vh;
     min-width: 65vh;
@@ -281,7 +287,6 @@ nav{
 }
 
 .portfolio img {
-    min-width: 60vh;
     max-width: 65vh;
     margin: 2vh;
     filter: grayscale(1);
@@ -333,7 +338,7 @@ input[type=text], textarea {
     margin-left: 2vh;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
-    width: 600px;
+    width: 90vh;
     border:none;
     border-bottom: 2px solid rgb(65, 65, 65);
   }
@@ -390,12 +395,42 @@ input[type=submit] {
     padding-top:100px;
 }
 
-@media (max-width: 375px) and (max-height:812px) and (-webkit-device-pixel-ratio : 2) {
-    .quote{
-        font-size: 10px;
-    }
-    .nav{
+@media (max-width: 375px) and (max-height:812px) {
+    .logo a{
         display: none;
     }
-    
+    .portfolio-section{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+    .portfolio img {
+        max-width: 40vh;
+        margin: 2vh;
+        filter: grayscale(1);
+        transition: 1s ease-in-out;
+        align-self: center;
+    }
+    .contact-section{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 100vh;
+        align-items: center;
+    }
+    input[type=text], textarea {
+        max-width: 40vh;
+        align-self: center;
+    }
+    .social{
+        width:25vh;
+        justify-content: space-between;
+        margin-left: 2vh;
+    }
+    .pac{
+        font-size: 30px;
+        letter-spacing: 0.5px;
+    }
+
 }
