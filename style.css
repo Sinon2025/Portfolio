@@ -6,7 +6,6 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body{
@@ -397,6 +396,9 @@ input[type=submit] {
 }
 
 @media (max-width: 375px) and (max-height:812px) {
+    html{
+        overflow-x: hidden;
+    }
     .logo a{
         display: none;
     }
